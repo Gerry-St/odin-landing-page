@@ -42,7 +42,59 @@ header {
     font-size: 48px;
 }
 
-.hero-text {
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-bottom: 48px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+.signed {
+    text-align: right;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin: 48px;
+    color: #F9FAF8;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 36px;
+}
+
+.call-to {
+    color: #E5E7EB;
+    font-size: 12px;
 }
 
 button {
@@ -58,3 +110,10 @@ button {
     border-style: none;
 }
 
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
